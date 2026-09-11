@@ -1,0 +1,51 @@
+.btn-primary {
+    background-color: #E67E22; 
+    border-color: #D35400;
+}
+
+.btn-primary:hover {
+    background-color: #D35400;
+    border-color: #BA4A00;
+}
+
+.btn-outline-primary {
+    color: #E67E22;
+    border-color: #E67E22;
+}
+
+.btn-outline-primary:hover {
+    background-color: #E67E22;
+    color: #FFFFFF;
+}
+
+.navbar {
+    border-bottom: 4px solid #E67E22;
+}
+
+.seccion-hero {
+    background: linear-gradient(135deg, #F39C12 0%, #D35400 100%);
+    color: #FFFFFF;
+}
+
+.seccion-hero h1,
+.seccion-hero p {
+    color: #FFFFFF;
+}
+
+.card {
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 20px rgba(0,0,0,0.2);
+}
+
+#especialidades .card-img-top {
+    height: 350px;
+    object-fit: cover;
+    object-position: center;
+}
